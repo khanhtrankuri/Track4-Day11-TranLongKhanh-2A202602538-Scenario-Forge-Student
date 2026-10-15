@@ -1,0 +1,38 @@
+{
+  "format": "avsim-studio/1",
+  "params": {
+    "cutT0": 9.432613981375987,
+    "cutDur": 3.6732200963889223,
+    "cutV": 12.650162846432591,
+    "pedT0": 14.977141838542208,
+    "pedV": 1.1987118154044667,
+    "busGo": 15.603477395569595,
+    "cutDs": -6.712082409244971,
+    "tgT": 0.729341889501654,
+    "mu": 0.8,
+    "cutGap": 13.216743070085547,
+    "cutBrake": 0.0,
+    "pedGap": 4.510593126943235,
+    "pedLook": 1,
+    "civil": true
+  },
+  "policy": {},
+  "hazards": [
+    {
+      "type": "ped",
+      "x": 192.80847428125577,
+      "side": "S",
+      "v": 1.7714029090638763,
+      "t0": 0.0,
+      "trig": 44.78544926217843
+    }
+  ],
+  "ego": "planner",
+  "space": {
+    "h0_x": [100.0, 285.0],
+    "h0_v": [1.0, 2.5],
+    "h0_trig": [5.0, 60.0]
+  },
+  "exposure": 0.01,
+  "why": "Tình huống người đi bộ băng ngang ngoài vạch từ lề phải. Dải vị trí 100–285 m phủ phần đường trước giao lộ; tốc độ 1.0–2.5 m/s từ đi bộ thường đến bước rất nhanh nhưng chưa chạy theo ngưỡng của lab; ngưỡng kích hoạt 5–60 m quét cả trường hợp xuất hiện muộn và có khoảng quan sát dài. Exposure 0.01/chuyến là giả định thận trọng: khoảng một lần gặp người băng ngang ngoài vạch trong 100 chuyến đô thị; cần hiệu chỉnh bằng video giao thông/naturalistic driving tại địa phương trước khi dùng ngoài lab."
+}
